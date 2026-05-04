@@ -4,7 +4,7 @@
 
 ## Project Screenshots
 
-![Code Screenshot](images/Initial_app_Name_or_Title.png)
+![Code Screenshot](Images/Initial_app_Name_or_Title.png)
 *
 
   Initially The Apps Default Name Is as per The App Circled In the Above Image
@@ -15,14 +15,14 @@
 
 *
 
-![Code Screenshot](images/New_app_Name.png)
+![Code Screenshot](Images/New_app_Name.png)
 *
 
   Well Moving Forward The New Code Has Been Added With 'NO ERRORS' as Confirmed By the Green Tick 
 
 *
 
-![Code Screenshot](images/Error_Free.png)
+![Code Screenshot](Images/Error_Free.png)
 *
 
   Now Lets Fire the App And We See A Live Home Screen Reminding Us How Our Maths Teachers Caringly Explained Fibonacci Series to Us.....
@@ -35,7 +35,7 @@
 
 *
 
-![Output Screenshot](images/New_Home_Screen.png)
+![Output Screenshot](Images/New_Home_Screen.png)
 *
 
 
@@ -45,7 +45,7 @@
 
 *P
 
-![Output Screenshot](images/Additional_Feature.png)
+![Output Screenshot](Images/Additional_Feature.png)
 *
 
 
