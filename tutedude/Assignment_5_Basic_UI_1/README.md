@@ -63,7 +63,7 @@ Next Up We Upload the Image Via the Upload Button
 
 *P
 
-![Output Screenshot](images/RAC_Demo.png)
+![Output Screenshot](Images/RAC_Demo.png)
 *
 
 The Difference Between How Alignment and Spacing Works In Row and Column Logic Can be Seen in How Each of the Elements Get Arranged
