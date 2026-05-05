@@ -25,7 +25,7 @@ After Clicking The Dice Changes As per Below Image....
 After Clicking on the Button the Dice Starts Rolling and the Number is Displayed
 
 *
-[![Watch the video](Images/Before.png)](Images/Rolling_Animation.mp4)
+[![Watch the video](Images/Before.png)](Images/Rolling_Animation.webm)
 
 ## Getting Started
 
