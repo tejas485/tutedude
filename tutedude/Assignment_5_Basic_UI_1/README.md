@@ -42,7 +42,7 @@ Side By Side You Can Checkout the Code Screenshot With Proper Brackets
 
 *
 ![Output Screenshot](Images/Description2.png)
-![Output Screenshot](Images/Dode_Screenshot2.png.png)
+![Output Screenshot](Images/Dode_Screenshot2.png)
 *
 
         Example 3 :=> Alignment Logic
