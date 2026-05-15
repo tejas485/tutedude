@@ -1,79 +1,63 @@
-# Helping Hand Being Glad
+# The Ninja Snake
 
 
 
 ### Project Description
 
 *
+    1. About App ==>
 
-This is an App Helping User To Undersand How to Install Flutter on Windows or Ios.
+The Snake Game is one of the Oldest Coding Challenge As a Project.
 
-Also How to Install Emulators in any of the Platform.
+So I Decided to Use this Same Challenge as a Project For this Assignment.
 
-Now, Before Going Further Let's Look into the UI of the App.
+    2. State Management ==>
 
+This Application Uses Ephemeral (Local) State Management Combined With the Change Notifier/Callback Pattern.
 
+    3. Screen With Dynamic Data ==>
 
-                Dark Theme ==>
+In Terms of Screen With Dynamic Data is as Follows
 
+    The 'Snake Game Screen' is the Screen. This Screen Continuously Reads the Changing Variables from the Game Engine and Transforms them into Visual Elements on your Device Screen
 
-*
-![Home Dark Screenshot](images/Dark.png)
-*
+    4. Interactions that Updates UI Using State Management ==>
 
-
-                Light Theme ==>
-
-
-
-*
-![Home Light Screenshot](images/light.png)
-*
+        In this architecture, interactions change the state variables inside GameEngine, which then triggers a callback to SnakeGameScreen. The screen runs setState(), forcing a UI rebuild to paint the updated numbers and coordinates [1].
 
 
-                Theme 2 ==>
 
+
+                Main App ==:>
 
 *
-![Home Theme 2 Screenshot](images/theme.png)
+![Apk Installed Screenshot](images/Apk_Installed.png)
 *
 
 
-                theme 3 ==>
+                Home Screen ==:>
+
+
+
+*
+![Home Screenshot](images/Home.png)
+*
+
+
+                Menu Section ==:>
+
+
+*
+![Menu Screenshot](images/Menu.png)
+*
+
+
+                Trial of the App ==>
 
 
 *
 ![Home Theme 3 Screenshot](images/theme2.png)
-*
 
-
-After Selecting the Windows Installation Guide a Page Opens.
-
-The Pages Have At top has a Link For the Website to Download the Flutter Installation.
-You can Copy it or Share the Website by the buttons in the Widget.
-
-*
-![Screen Screenshot](images/Windows.png)
-*
-
-Below that are Clickable Widgets That Expand to Full Text box Instructions with URLs, Commands, etc, With Copy Options.
-
-Also the UI Doesn't Crashes or Overflows
-
-*
-![Widgets Screenshot](images/Windows1.png)
-*
-
-Similarly, We also Have Ios Installation Guide.
-
-*
-![Grid View Screenshot](images/Ios.png)
-*
-
-Emulator Installation Option Also Shows All the Necessary Instructions
-
-*
-![Card Screenshot](image/Emulator.png)
 ## Getting Started
 
 This project is a starting point for Learning all the Dart Programming Basics Needed for OOP related coding.
