@@ -31,7 +31,7 @@ In Terms of Screen With Dynamic Data is as Follows
                 Main App ==:>
 
 *
-![Apk Installed Screenshot](images/Apk_Installed.png)
+![Apk Installed Screenshot](images/Apk_Installed.jpg)
 *
 
 
@@ -40,7 +40,7 @@ In Terms of Screen With Dynamic Data is as Follows
 
 
 *
-![Home Screenshot](images/Home.png)
+![Home Screenshot](images/Home_Screen.jpg)
 *
 
 
@@ -48,7 +48,7 @@ In Terms of Screen With Dynamic Data is as Follows
 
 
 *
-![Menu Screenshot](images/Menu.png)
+![Menu Screenshot](images/Menu.jpg)
 *
 
 
