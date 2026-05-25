@@ -167,7 +167,7 @@ The application uses a Layered Architecture Split by feature. This separates log
         How it works: The app uses http parameter dictionaries to bypass string-link interpolation bugs. It safely checks and casts nested data (like OpenWeather's unique weather list-of-maps array) to avoid type 'List' is not a subtype of type 'Map' runtime errors.
 *P
 
-![Output Screenshot](images/Proper_Example_Line.png)
+![Output Screenshot](images/search_city.jpg)
 *
 
     G. Responsive UI Framework Grid
