@@ -1,0 +1,21 @@
+# Master .gitignore for D:\App_Projects\Flutter
+
+# ─── 1. EXCLUDE ONLY THE HEAVY UNPACKED NATIVE BINARIES FOR ASSIGNMENT 16 ───
+**/standalone_cine_mesh/build/
+**/standalone_cine_mesh/native_dependencies/firebase_cpp_sdk/
+
+# ─── 2. EXCLUDE HEAVY WEB DEPENDENCY LOOPS FOR ASSIGNMENT 15 ───
+**/Assignment_14+15_TODO_App/todo/node_modules/
+**/Assignment_14+15_TODO_App/todo/build/
+
+# ─── 3. PERMIT ALL OTHER LIGHTWEIGHT ARCHIVE ZIP DEPENDENCIES ───
+!**/standalone_cine_mesh/native_dependencies/
+
+# ─── 4. STANDARD FLUTTER CACHE EXCLUSIONS FOR BOTH PROJECTS ───
+**/.dart_tool/
+**/pubspec.lock
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+*.log
+lt_url.txt
