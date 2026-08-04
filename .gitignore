@@ -1,8 +1,15 @@
-/.build/
-/build/
-/.dart_tool/
-/.idea/
-/.pub-cache/
-/.pub/
-/windows/flutter/ephemeral/
-*.executable
+# Ignore heavy native dependencies zip archives and binaries
+tutedude/Assignment_16_Capstone_Project/**/native_dependencies/*.zip
+tutedude/Assignment_16_Capstone_Project/**/native_dependencies/*.tar.gz
+tutedude/Assignment_16_Capstone_Project/**/native_dependencies/*.tgz
+
+# Ignore build artifacts specific to standalone_cine_mesh
+tutedude/Assignment_16_Capstone_Project/standalone_cine_mesh/.dart_tool/
+tutedude/Assignment_16_Capstone_Project/standalone_cine_mesh/build/
+tutedude/Assignment_16_Capstone_Project/standalone_cine_mesh/android/.gradle/
+tutedude/Assignment_16_Capstone_Project/standalone_cine_mesh/android/app/build/
+tutedude/Assignment_16_Capstone_Project/standalone_cine_mesh/windows/flutter/ephemeral/
+
+# Ignore installer binaries and shortcuts
+tutedude/Assignment_16_Capstone_Project/*.exe
+*.lnk
