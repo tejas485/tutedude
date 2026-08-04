@@ -1,0 +1,25 @@
+# .gitignore
+
+# ─── 1. INTERCEPT AND IGNORE ONLY THE HEAVY UNPACKED FIREBASE SDK ───
+# Ignore the heavy extracted target build directory completely
+build/
+native_dependencies/firebase_cpp_sdk/
+
+# ─── 2. EXPLICIT FORCE TRACK: PERMIT ALL OTHER LOCAL NATIVE ASSETS ───
+# Allow everything else inside native_dependencies to be tracked and added
+!native_dependencies/
+
+# ─── 3. STANDARD FLUTTER SYSTEM ARTIFACTS ───
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+pubspec.lock
+
+# ─── 4. LOG COMPILATION TRACES ───
+*.log
+lt_url.txt
+
+# ─── 5. USER IDE PREFERENCES ───
+.idea/
+.vscode/

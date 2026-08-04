@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Decentralized Semantic Movie Explorer">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Cinema AI Mesh">
+
+  <title>Cinema AI Mesh</title>
+  <link rel="manifest" href="manifest.json">
+</head>
+<body style="background-color: #0F0F1A;">
+
+<!-- Core Firebase Web App Compat SDK Scripts -->
+<script src="https://gstatic.com"></script>
+<script src="https://gstatic.com"></script>
+
+<script>
+  // Your verified live Firebase project credentials object layout
+  const firebaseConfig = {
+    apiKey: "AIzaSyBrQix5g3wohagp6J5ZxJsjBx6alo5CnUI",
+    authDomain: "cinema-mesh-auth.firebaseapp.com",
+    projectId: "cinema-mesh-auth",
+    storageBucket: "cinema-mesh-auth.firebasestorage.app",
+    messagingSenderId: "495560371302",
+    appId: "1:495560371302:web:d37d1fe87e942e95a791a7",
+    measurementId: "G-S4EBL0J6B4"
+  };
+
+  // Core cloud instance initialization handshake boundary
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+<!-- This dynamic engine script handles the compiler injection safely at runtime -->
+<script src="main.dart.js" type="application/javascript"></script>
+</body>
+</html>
