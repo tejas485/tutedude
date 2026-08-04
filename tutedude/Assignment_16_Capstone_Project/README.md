@@ -50,6 +50,7 @@ To bypass this roadblock without requiring manual data entry, the Flutter Web cl
 
 Rather than connecting your server node directly to the Cloud Firestore database cluster (which would expose your master security passwords within the public notebook log streams), CineMesh uses a **Stateless Client-Relay Architecture**.
 
+```text
    ┌───────────────────────┐                  ┌───────────────────────┐
    │  Kaggle Compute Node  │                  │  Flutter Web Browser  │
    │  (T4 GPU Processing)  │                  │  (AES-GCM Decryption) │
@@ -63,6 +64,7 @@ Rather than connecting your server node directly to the Cloud Firestore database
    │           (Secured Logs: /users/{uid}/conversations)             │
    └──────────────────────────────────────────────────────────────────┘
 
+```
 ### 🔹 Isolated Client-Relay Synchronization
 All communication logs are handled by the client browser via the official Firebase Web SDK. When the backend compute node finishes a recommendation pass, it bundles the findings inside an encrypted AES frame and drops it back down to the browser. 
 
