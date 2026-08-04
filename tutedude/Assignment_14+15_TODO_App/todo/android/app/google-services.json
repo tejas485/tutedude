@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "251038220230",
+    "project_id": "todo-is-cool",
+    "storage_bucket": "todo-is-cool.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:251038220230:android:05127c32522d06f3953cc7",
+        "android_client_info": {
+          "package_name": "com.example.todo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJeodHEbphh_L5uPXydn1nU2IIA8H65Nw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
