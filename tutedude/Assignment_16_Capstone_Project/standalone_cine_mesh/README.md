@@ -126,6 +126,6 @@ Use this exact command line loop to build, run, and hot-reload changes without t
 flutter build apk --debug --android-skip-build-dependency-validation --no-pub
 
 # 3. Push the compiled APK file over USB and start your lightweight live log stream
-flutter run --debug --use-application-binary="build/outputs/flutter-apk/app-debug.apk" -d CPH2223
+flutter run --debug --use-application-binary="build/outputs/flutter-apk/app-debug.apk" -d Device_Name
 ```
 
